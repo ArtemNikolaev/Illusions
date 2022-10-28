@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.illusionList {
+    display: flex;
+    flex-direction: row;
+}
+
+.illusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
