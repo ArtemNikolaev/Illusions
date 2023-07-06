@@ -1,4 +1,4 @@
-import {создатьПрограмму, создатьШейдер, извлечьТекст, маштабироватьХолстПодОтображаемыйРазмер} from "../../_/js/utils";
+import {создатьПрограмму, создатьШейдер, извлечьТекст, маштабироватьХолстПодОтображаемыйРазмер} from "../../_/js/utils/index.js";
 const кнопкаУвеличенияКоличестваСтрок = document.querySelector("#controls .rows-controller .plus");
 const кнопкаУменьшенияКоличестваСтрок = document.querySelector("#controls .rows-controller .minus");
 const вводЦветаФона = document.querySelector("#controls .bckg-controller .color");
