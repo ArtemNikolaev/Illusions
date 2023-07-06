@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Squares Illusion</title>
+    <style>
+        html, body, canvas {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+
+            width: 100vw;
+            height: 100vh;
+
+            overflow: hidden;
+        }
+
+        #controls {
+            padding: 10px;
+            border-radius: 5px;
+            background: aliceblue;
+            position: absolute;
+            right: 5vw;
+            top: 5vh;
+        }
+
+        #controls .control-line {
+            margin: 0;
+            padding: 5px 0;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<section id="controls">
+    <p class="control-line rows-controller">
+        <span>Rows:</span>
+        <button class="minus">-</button>
+        <button class="plus">+</button>
+    </p>
+    <p class="control-line bckg-controller">
+        <label for="8f545c91-136a-41ac-834d-8c657a7bd536">Background:</label>
+        <input id="8f545c91-136a-41ac-834d-8c657a7bd536" class="color" type="color" value="#ffffff">
+    </p>
+    <p class="control-line square-controller">
+        <label for="8b45ac9d-0cee-45bb-ae9a-974ea5a41f76">Square:</label>
+        <input id="8b45ac9d-0cee-45bb-ae9a-974ea5a41f76" class="color" type="color" value="#000">
+    </p>
+    <p class="control-line line-controller">
+        <label for="1c7578d2-10bf-4749-949d-25c45fc4bdfc">Line:</label>
+        <input id="1c7578d2-10bf-4749-949d-25c45fc4bdfc" class="color" type="color" value="#808080">
+    </p>
+</section>
+<canvas id="main-canvas"></canvas>
+<script src="./js/main.js" type="module"></script>
+</body>
+</html>
