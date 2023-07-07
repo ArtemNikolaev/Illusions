@@ -7,7 +7,7 @@ const вводЦветаФона = document.querySelector("#controls .bckg-contr
 const вводЦветаКвадрата = document.querySelector("#controls .square-controller .color");
 const вводЦветаЛинии = document.querySelector("#controls .line-controller .color");
 
-let radius = window.innerHeight < window.innerWidth ? Math.round(window.innerHeight / 4) : Math.round(window.innerWidth);
+let radius = window.innerHeight < window.innerWidth ? Math.round(window.innerHeight / 4) : Math.round(window.innerWidth / 4);
 let размерБлока = 1;
 let
   указательУниформаРадиус,
